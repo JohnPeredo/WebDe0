@@ -1,0 +1,19 @@
+.box{
+    background-color: lightgrey;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px;
+    margin: 50px;
+}
+
+.box2{
+background-color: aquamarine;
+padding: 10px 5px 10px 5px;
+margin: auto;
+}
+.box3{
+background-color: blueviolet;
+margin: auto;
+padding: 10px 5px 10px 5px;
+}

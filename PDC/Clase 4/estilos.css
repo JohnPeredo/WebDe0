@@ -1,0 +1,23 @@
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column {
+    flex:1;
+    padding: 10px
+}
+
+@media (max-width:600px) {
+    .column {
+        flex:100%
+    }
+}

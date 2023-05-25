@@ -1,0 +1,19 @@
+.afuera{
+background-color: blueviolet;
+width: 500px;
+display: flex;
+}
+
+.medio{
+margin: 30px;
+padding: 20px;
+width: 400px;
+height: 200px;
+background-color: aqua;
+}
+
+.adentro{
+background-color: royalblue;
+width: 100%;
+height: 100%;
+}

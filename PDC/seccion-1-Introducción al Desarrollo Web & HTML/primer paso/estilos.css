@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(170, 159, 230);
+    
+}
+
+
+.subtitulo{
+    text-align: center; 
+}
+#parrafo{ /*solo el primer parrafo (la intro)*/
+    background-color: blanchedalmond;
+    margin: 25px;
+}
+.parrafos{
+    margin: 25px;
+}
+
+.lista{
+    color: bisque;
+    background-color: rgb(107, 32, 32);
+    padding-bottom: 4px;
+}
+.divIntro{
+    margin-top: 50px;
+    padding-bottom: 3px;
+    background-color: rgba(31, 32, 114, 0.993);
+    border-radius: 10%;
+}
+.subtitulos{
+    
+}
+.divFinal{
+    color: bisque;
+    background-color: rgba(126, 82, 1, 0.993);
+}
+.resumen{
+    text-align: center; 
+}

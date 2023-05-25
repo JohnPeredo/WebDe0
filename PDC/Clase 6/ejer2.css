@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    font-size: 10px;
+}
+
+body> div{
+    border: 1px dashed darkkhaki;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+}
+
+.caja-1{
+    background-color: coral;
+}
+
+.caja-2{
+    background-color: cornflowerblue;
+}
+
+.caja-3{
+    background-color: darkseagreen;
+}
+
+div div{
+    width: 30px;
+    height: 30px;
+}
+
+.cont-1{
+    justify-content: space-around;
+}
+
+
+.cont-1 > .caja-2 {
+    align-self: center;
+}
+
+.cont-1 > .caja-3 {
+    align-self: end;
+}
+
+.cont-2{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont-2 .caja-2{
+    width: 100%;
+}
+
+.cont-3{
+    align-items: end;
+    flex-direction: column-reverse;
+}
